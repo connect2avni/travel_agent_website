@@ -83,8 +83,7 @@
                 <div class="col-lg-4">
                     <div class="card">
                         <div class="card-body">
-                            <div class="card-img">
-
+                            <div class="card-img" id="card-video-1" onmouseover="play_video('card-video-1')" onmouseout="pause_video('card-video-1')" data-video-url="https://www.youtube.com/embed/209P2YndRzM?si=gZwtILU0XvMx2HQk&amp;controls=0&amp;autoplay=1" data-image-url="istockphoto-1327095675-170667a.jpg">
                                 <img class="card-image1" src="istockphoto-1327095675-170667a.jpg">
                             </div>
                             <h5 class="card-title">Golden Triangle Tour Odisha</h5>
@@ -103,6 +102,7 @@
                             <div class="card-img">
                                 <img class="card-image1" src="india-chilika-lake-birds-lake.jpg">
                             </div>
+                            <!-- <video class="box" src="https://youtu.be/209P2YndRzM?si=Pp1Z2nwD_WlMVXJh" type="video/mp4"> </video> -->
                             <h5 class="card-title">Bhubaneswar Puri Konark Tour Package</h5>
                             <p class="card-text">04 nights and 05 days</p>
                             <div class="button_class">
@@ -183,7 +183,7 @@
                         <p>Advice From The Ocean: Be Shore Of Yourself. Come Out Of Your Shell. Take Time To Coast.
                             Avoid Pier Pressure. Sea Life's Beauty. Don't Get So Tide Down On Work That You Miss Out On
                             Life's Beautiful Waves.</p>
-                        <div class="btn5">Read More</div>
+                        <div class="btn5" id="read_more_id">Read More</div>
                     </div>
                 </div>
             </div>
@@ -287,6 +287,8 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="myscript.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="jquery.js"></script>
 </body>
 
 </html>
