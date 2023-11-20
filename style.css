@@ -25,13 +25,19 @@
     font-weight: 500;
     font-family:'sans-serif';
     justify-content: center;
-    padding: 20px;
-    font-size: 30px;
+    padding: 15px;
+    font-size: 23px;
     align-items: center;
     
 }
 .navbar_elements ul li a:hover{
-    color:#8e44ad;
+    color:purple;
+    border: 2px solid purple;
+    transform:scale(1.1);
+    border-radius: 5px;
+    padding:8px;
+    background-color:rgb(239, 224, 239);
+    transition:0.5s;
 }
 .btn{
     color:white;
@@ -81,6 +87,8 @@
     transform: translate(-50%, -50%);
     color:white;
     font-size: 6vw;
+  
+
   }
   .heading_paragraph{
     z-index:1;
@@ -99,7 +107,6 @@
     color:white;
     background-color: black;
     font-size:20px;
-    margin-left: 38px;
     height:56px;
     width:219px;
     letter-spacing: 1px;
@@ -199,7 +206,7 @@ h1.packages{
   border: 2px solid red;
 
 }
-.middle_image{
+.swiper-slide_middle{
   width:100%;
 }
 
@@ -220,6 +227,7 @@ h1.packages{
   padding-left:55px;
   padding-right: 50px;
   line-height:33px;
+  
 }
 .image_footer{
   background-size: cover;
@@ -328,3 +336,9 @@ footer{
   justify-content: center;
   align-items: center;
 }
+#btns{
+  display:none;
+  float:left;
+}
+
+.0
